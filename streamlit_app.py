@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 # Näytetään data taulukkona
 st.subheader("Tuotetiedot")
 st.dataframe(df, use_container_width=True)
-
+'''
 # Ohje Frameriin upottamiseen
 st.subheader("Upottaminen Frameriin")
 iframe_code = """
@@ -24,3 +24,4 @@ iframe_code = """
 st.code(iframe_code, language="html")
 
 st.markdown("Korvaa **YOUR_STREAMLIT_APP_URL** omalla Streamlit-palvelimesi URL-osoitteella.")
+'''
